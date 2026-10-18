@@ -1,0 +1,459 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Radhe Dental Clinic & Implant Centre | Ahmedabad</title>
+
+<meta name="description" content="Visit Radhe Dental Clinic & Implant Centre in Ahmedabad for dental implants, root canal treatment, orthodontics, smile design, crowns, bridges and family dental care.">
+
+<style>
+:root {
+  --red: #b71924;
+  --dark-red: #850d17;
+  --yellow: #ffd43b;
+  --light: #fff9e9;
+  --dark: #252525;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: var(--red);
+  color: white;
+  padding: 14px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: var(--yellow);
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--yellow);
+}
+
+.hero {
+  background: linear-gradient(120deg, var(--dark-red), var(--red));
+  color: white;
+  padding: 75px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.hero-content {
+  flex: 1 1 320px;
+}
+
+.hero h1 {
+  font-size: clamp(32px, 5vw, 52px);
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: var(--yellow);
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero-art {
+  flex: 1 1 240px;
+  text-align: center;
+  font-size: 120px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--yellow);
+  color: var(--dark-red);
+  padding: 12px 22px;
+  border-radius: 7px;
+  font-weight: bold;
+  margin: 5px 5px 5px 0;
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+section {
+  padding: 60px 7%;
+  scroll-margin-top: 20px;
+}
+
+.section-title {
+  text-align: center;
+  color: var(--red);
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.section-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 32px;
+}
+
+.about {
+  background: var(--light);
+}
+
+.doctor-grid,
+.service-grid,
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 18px #00000012;
+  border-top: 4px solid var(--yellow);
+}
+
+.card h3 {
+  color: var(--red);
+  margin: 8px 0;
+}
+
+.card-icon {
+  font-size: 38px;
+}
+
+.services {
+  background: #fff;
+}
+
+.service-card {
+  text-align: center;
+  transition: transform .2s;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+}
+
+.locations {
+  background: var(--light);
+}
+
+.location-card {
+  border-top-color: var(--red);
+}
+
+.location-card p {
+  margin: 10px 0;
+}
+
+.contact {
+  background: var(--red);
+  color: white;
+  text-align: center;
+}
+
+.contact .section-title {
+  color: var(--yellow);
+}
+
+.contact p {
+  margin: 12px 0;
+}
+
+footer {
+  background: #252525;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer span {
+  color: var(--yellow);
+}
+
+@media (max-width: 600px) {
+  header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  nav {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 50px 6%;
+  }
+
+  .hero-art {
+    font-size: 85px;
+  }
+
+  section {
+    padding: 45px 6%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🦷 RADHE <span>DENTAL CLINIC</span></div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">Doctors</a>
+    <a href="#services">Treatments</a>
+    <a href="#locations">Locations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Your Smile,<br><span>Our Priority!</span></h1>
+
+    <p>
+      Welcome to Radhe Dental Clinic & Implant Centre.
+      Quality dental care for healthy smiles and confident lives.
+    </p>
+
+    <a class="btn" href="#locations">Find Our Clinics</a>
+    <a class="btn btn-outline" href="#contact">Contact Us</a>
+  </div>
+
+  <div class="hero-art" aria-label="Tooth symbol">🦷</div>
+</section>
+
+<section class="about" id="about">
+  <h2 class="section-title">Meet Our Dentists</h2>
+  <p class="section-intro">
+    Professional dental care with a focus on your comfort,
+    oral health and individual treatment needs.
+  </p>
+
+  <div class="doctor-grid">
+    <article class="card">
+      <div class="card-icon">👨‍⚕️</div>
+      <h3>Dr. Milan Maheshwari</h3>
+      <p><strong>B.D.S., M.D.S.</strong></p>
+      <p>Dental specialist providing care according to individual treatment needs.</p>
+    </article>
+
+    <article class="card">
+      <div class="card-icon">👩‍⚕️</div>
+      <h3>Dr. Jyoti Maheshwari</h3>
+      <p><strong>General Dental Surgeon</strong></p>
+      <p>General dental care for individuals and families.</p>
+    </article>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <h2 class="section-title">Our Dental Specialties</h2>
+  <p class="section-intro">
+    Comprehensive dental services for children and adults.
+    Treatment is planned after a dental examination.
+  </p>
+
+  <div class="service-grid">
+
+    <article class="card service-card">
+      <div class="card-icon">😁</div>
+      <h3>Orthodontics</h3>
+      <p>Assessment and treatment of irregular teeth and bite problems.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">🦷</div>
+      <h3>Dental Implants</h3>
+      <p>Options for replacing missing teeth with implant-supported teeth.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">✨</div>
+      <h3>Smile Design</h3>
+      <p>Personalized planning to improve the appearance of your smile.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">🔬</div>
+      <h3>Root Canal Treatment</h3>
+      <p>Treatment to manage infection or damage inside a tooth.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">👑</div>
+      <h3>Crowns & Bridges</h3>
+      <p>Restorations to protect damaged teeth or replace missing teeth.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">🛠️</div>
+      <h3>Full-Mouth Rehabilitation</h3>
+      <p>Coordinated treatment planning for multiple dental problems.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">😁</div>
+      <h3>Dentures</h3>
+      <p>Removable tooth-replacement options suited to your needs.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">🧒</div>
+      <h3>Pediatric Dentistry</h3>
+      <p>Preventive and restorative dental care for children.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">🩺</div>
+      <h3>OSMF Care</h3>
+      <p>Evaluation, counselling and appropriate management of oral submucous fibrosis.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">🪥</div>
+      <h3>Preventive Dentistry</h3>
+      <p>Oral examinations, cleaning advice and cavity prevention.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">🦷</div>
+      <h3>General Dentistry</h3>
+      <p>Consultations, fillings, gum care and routine dental treatment.</p>
+    </article>
+
+    <article class="card service-card">
+      <div class="card-icon">🩻</div>
+      <h3>Endodontics</h3>
+      <p>Assessment and treatment of diseases affecting the dental pulp and root tissues.</p>
+    </article>
+
+  </div>
+</section>
+
+<section class="locations" id="locations">
+  <h2 class="section-title">Visit Our Clinics</h2>
+  <p class="section-intro">
+    Choose the clinic location most convenient for you.
+  </p>
+
+  <div class="location-grid">
+
+    <article class="card location-card">
+      <h3>📍 Radhe Dental Clinic</h3>
+      <p><strong>Address:</strong><br>
+      D-160, Sneh Plaza,<br>
+      IOC Road, Chandkheda,<br>
+      Ahmedabad, Gujarat.</p>
+
+      <a class="btn"
+         href="https://www.google.com/maps/search/?api=1&query=Radhe+Dental+Clinic+%26+Implant+Centre+Chandkheda+Ahmedabad"
+         target="_blank" rel="noopener">
+         Get Directions
+      </a>
+    </article>
+
+    <article class="card location-card">
+      <h3>📍 Radhe Dental Clinic & Implant Centre</h3>
+      <p><strong>Address:</strong><br>
+      Shop No. 3, Dev Pujan Apartment,<br>
+      Opposite Shree Balaji Residency,<br>
+      Motera, Ahmedabad, Gujarat.</p>
+
+      <a class="btn"
+         href="https://www.google.com/maps/search/?api=1&query=Radhe+Dental+Clinic+%26+Implant+Centre+Motera+Ahmedabad"
+         target="_blank" rel="noopener">
+         Get Directions
+      </a>
+    </article>
+
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="section-title">Book Your Dental Consultation</h2>
+
+  <p>
+    Your oral health matters. Contact our clinic to enquire
+    about appointments and available treatments.
+  </p>
+
+  <p><strong>Dr. Milan Maheshwari (B.D.S., M.D.S.)</strong></p>
+  <p><strong>Dr. Jyoti Maheshwari (General Dental Surgeon)</strong></p>
+
+  <!-- Add your verified clinic phone number below -->
+  <p>Call for appointments: 9978902900,7016452395</p>
+
+  <a class="btn" href="#locations">View Clinic Locations</a>
+</section>
+
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Radhe Dental Clinic & Implant Centre.</p>
+  <p>Healthy Smiles, Happier Lives!</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+</script>
+
+</body>
+</html>
